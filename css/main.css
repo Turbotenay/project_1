@@ -1,3 +1,158 @@
-body(
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+img {
+    display: block;
+}
+.main-page {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+/* header */
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2;
+}    
+.header-container{
+align-items: center;
+width: 1110px;
+margin: 0 auto;
+display: flex;
+}
+.logo{
+margin-right: 40px;
+}
+.navi{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #18191F;
+    margin-top: -4px;
+}   
+.navi-link{
+    margin-right: 32px;
+    color: #18191F;
+    text-decoration: none;
+}
+.navi-link:hover {
+   color: #8C30F5
+}
+.navi-link:last-child {
+    margin-right: 0;
+}
+.buttons{
+margin-left: auto;
+display: flex;
+}
+.appstore-item{
+    margin-left: 12px;
+}
+.appstore-item:first-child{
+    margin-left: 0px;
+}
+/* main */
+.main{
+
+}
+.main-container{
+
+align-items: center; 
+width: 1110px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+padding-top: 197px;
+padding-bottom: 197px;
+
+}
+.main-content{
+    width: 540px;
+    font-size: 18px;
+    color: #18191F;
+
+}
+.main-img{
+
+}
+.main-header{
+    margin-bottom: 16px;
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+
+    color: #18191F;
     
-)
+}
+
+.main-text{
+    margin-bottom: 32px;
+}
+.main-text p {
+    font-size: 18px;
+    line-height: 1.78;
+    margin-bottom: 15px;
+   
+}
+.button{
+display: inline-block;
+height: 62px;
+background: #8C30F5;
+border-radius: 8px;
+padding-left: 35px;
+padding-right: 35px;
+
+
+font-weight: bold;
+font-size: 20px;
+line-height: 62px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    background: #0B0D17;
+    color: #D9DBE1
+
+}
+   
+.footer-container{
+align-items: center; 
+width: 1110px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+}
+.footer-copyright{
+font-size: 14px;
+}
+.footer-socials{
+display: flex;
+}
+.footer-socials-items{
+    margin-left: 16px;
+}
